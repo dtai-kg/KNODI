@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KNODI</title>
+  <meta name="description" content="Knowledge-based support for complex data analysis in multi-stage manufacturing">
+  <link rel="icon" href="assets/knodi_logo.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/knodi_logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="#top" aria-label="KNODI, back to top">
+        <span class="logo-crop"><img src="assets/knodi_logo.svg" alt="KNODI logo" width="104" height="104"></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#use-cases">Use cases</a></li>
+          <li><a href="#consortium">Consortium</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1 class="hero-title">KNODI</h1>
+        <p class="hero-subtitle">Knowledge-based support for complex data analysis in multi-stage manufacturing</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">About the project</a>
+          <a class="button button-secondary" href="#research">Research</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <h2>About KNODI</h2>
+        <div class="prose">
+          <p>Modern manufacturing companies gather vast data from their manufacturing processes using Industrial Internet of Things (IIoT) technologies. However, creating value from this data remains a struggle as production processes involve many interrelated steps with variability in products, processes, and context. Data from different sources like production planning, sensors, and operator records must be combined. For example, today at Bekaert, a team of several experienced data scientists and domain experts works 3 to 6 months to solve a single business question, such as: "What factors determine the energy consumption for this specific product?"</p>
+          <p>In KNODI, Bekaert, Materialise, Delaware, and researchers from Flanders Make and KU Leuven research how state-of-the-art language-processing AI, combined with structured knowledge representations, can be deployed to extract, store, and use company knowledge to perform industrial, complex production data analyses in energy consumption and root cause product quality analysis. The aim is for in-house data consumers to leverage this knowledge to explore a rich data context and answer complex questions more efficiently. Reducing the effort to answer complex questions is the key to reduce energy consumption, improve efficiency, or eliminate scrap.</p>
+          <h3 class="subheading">Objective</h3>
+          <p>The goal of KNODI is to research how modern large language models can be combined with an enterprise knowledge graph to store structured knowledge in the context of complex data analysis. The resulting framework for data analysis allows non-data experts to efficiently address unstructured data (product manufacturing information, expert knowledge, models, …) and semi-structured data (sensor measurements, log files, …) in a reliable manner for solving complex questions related to the production process. The aim of combining large language models (LLMs) with an explicit knowledge representation is to create an analysis support framework with a level of reliability, transparency, and flexibility that pure state-of-the-art language models, trained directly on the same data, would not be able to reach.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="container">
+        <h2>Research</h2>
+        <p class="intro">KNODI's research is organised in the following lines of work.</p>
+        <ol class="cards cards-research">
+          <li class="card">
+            <span class="badge" aria-hidden="true">1</span>
+            <h3>LLM-supported ingestion of unstructured data in the knowledge graph.</h3>
+            <p>Compare LLM workflows for interpreting unstructured manufacturing data (PMI documents) and generating structured knowledge from these documents.</p>
+          </li>
+          <li class="card">
+            <span class="badge" aria-hidden="true">2</span>
+            <h3>LLM-supported data mapping.</h3>
+            <p>Use LLMs for mapping semi-structured data sources (i.e., ERP, MES, and sensor data) to a structured knowledge representation.</p>
+          </li>
+          <li class="card">
+            <span class="badge" aria-hidden="true">3</span>
+            <h3>Effective data analysis using Knowledge-based Digital Twin.</h3>
+            <p>Research how LLMs can be used to query structured knowledge and how to frame this in an effective data science and non-data expert analysis approach.</p>
+          </li>
+          <li class="card">
+            <span class="badge" aria-hidden="true">4</span>
+            <h3>System architecture, validation and dissemination.</h3>
+            <p>The project partners set requirements and use case scenarios and define a reference system architecture for the data analysis framework, which is validated on a generic research demonstrator case and two industrial use cases from Bekaert and Materialise.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="use-cases" class="section section-alt">
+      <div class="container">
+        <h2>Use cases</h2>
+        <p class="intro">Next to a generic research demonstrator, the KNODI framework will be validated on two industrial use cases.</p>
+        <ul class="cards cards-two">
+          <li class="card">
+            <h3>Bekaert.</h3>
+            <p>Production data analysis in steel wire manufacturing.</p>
+          </li>
+          <li class="card">
+            <h3>Materialise.</h3>
+            <p>Production data analysis in additive manufacturing.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="consortium" class="section">
+      <div class="container">
+        <h2>Consortium</h2>
+        <ul class="cards cards-partners">
+          <li class="card card-partner">
+            <a class="partner" href="https://www.bekaert.com" target="_blank" rel="noopener">
+              <span class="partner-logo"><img src="assets/partners/bekaert.svg" alt="Bekaert logo"></span>
+              <span class="partner-name">Bekaert.</span>
+            </a>
+            <p>Industrial partner and use case provider.</p>
+          </li>
+          <li class="card card-partner">
+            <a class="partner" href="https://www.materialise.com" target="_blank" rel="noopener">
+              <span class="partner-logo"><img src="assets/partners/materialise.svg" alt="Materialise logo"></span>
+              <span class="partner-name">Materialise.</span>
+            </a>
+            <p>Industrial partner and use case provider.</p>
+          </li>
+          <li class="card card-partner">
+            <a class="partner" href="https://www.delaware.pro" target="_blank" rel="noopener">
+              <span class="partner-logo"><img src="assets/partners/delaware.svg" alt="Delaware logo"></span>
+              <span class="partner-name">Delaware.</span>
+            </a>
+            <p>Industrial partner, working on time series data.</p>
+          </li>
+          <li class="card card-partner">
+            <a class="partner" href="https://www.flandersmake.be" target="_blank" rel="noopener">
+              <span class="partner-logo"><img src="assets/partners/flanders-make.svg" alt="Flanders Make logo"></span>
+              <span class="partner-name">Flanders Make.</span>
+            </a>
+            <p>Research partner, working on extracting structured knowledge from documents and on natural language querying of the knowledge graph.</p>
+          </li>
+          <li class="card card-partner">
+            <a class="partner" href="https://www.kuleuven.be" target="_blank" rel="noopener">
+              <span class="partner-logo"><img src="assets/partners/kuleuven.svg" alt="KU Leuven logo"></span>
+              <span class="partner-name">KU Leuven, DTAI.</span>
+            </a>
+            <p>Research partner, leading the research on LLM-supported mapping of semi-structured data, such as ERP and MES tables, to the knowledge graph.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="publications" class="section section-alt">
+      <div class="container">
+        <h2>Publications</h2>
+        <div id="publications-list" class="publications" data-src="data/publications.json">
+          <p class="publications-empty">Publications will be listed here as they become available.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact @ KU Leuven, DTAI</h2>
+        <p class="intro">For questions about KNODI or this website, please contact:</p>
+        <ul class="cards cards-two">
+          <li class="card">
+            <h3>Anastasia Dimou</h3>
+            <p class="role">KU Leuven, DTAI</p>
+            <p><a href="mailto:anastasia.dimou@kuleuven.be">anastasia.dimou@kuleuven.be</a></p>
+          </li>
+          <li class="card">
+            <h3>Xuemin Duan</h3>
+            <p class="role">KU Leuven, DTAI</p>
+            <p><a href="mailto:xuemin.duan@kuleuven.be">xuemin.duan@kuleuven.be</a></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#top" aria-label="KNODI, back to top">
+          <span class="logo-crop"><img src="assets/knodi_logo.svg" alt="KNODI logo" width="104" height="104"></span>
+          <span class="brand-name">KNODI</span>
+        </a>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#use-cases">Use cases</a></li>
+          <li><a href="#consortium">Consortium</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>Website maintained by KU Leuven, DTAI</p>
+      <p>&copy; 2026 KU Leuven</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

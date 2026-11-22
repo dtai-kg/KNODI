@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="512"
+  height="512"
+  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="KNODI project logo">
+
+  <!-- Transparent background -->
+  <rect width="512" height="512" fill="none"/>
+
+  <!-- K-shaped knowledge graph symbol -->
+  <g transform="translate(256 190)">
+    <!-- Vertical spine of K -->
+    <line x1="-60" y1="-60" x2="-60" y2="60" stroke="#1F3A5F" stroke-width="4"/>
+
+    <!-- Upper diagonal -->
+    <line x1="-60" y1="0" x2="40" y2="-60" stroke="#1F3A5F" stroke-width="4"/>
+
+    <!-- Lower diagonal -->
+    <line x1="-60" y1="0" x2="40" y2="60" stroke="#1F3A5F" stroke-width="4"/>
+
+    <!-- Nodes -->
+    <circle cx="-60" cy="-60" r="10" fill="#1F3A5F"/>
+    <circle cx="-60" cy="0" r="12" fill="#2FB7B0"/>
+    <circle cx="-60" cy="60" r="10" fill="#1F3A5F"/>
+
+    <circle cx="40" cy="-60" r="10" fill="#1F3A5F"/>
+    <circle cx="40" cy="60" r="10" fill="#1F3A5F"/>
+  </g>
+
+  <!-- Project name -->
+  <text
+    x="256"
+    y="330"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="64"
+    font-weight="700"
+    fill="#1F3A5F"
+    letter-spacing="4">
+    KNODI
+  </text>
+
+  <!-- Optional subtitle (commented out) -->
+  <!--
+  <text
+    x="256"
+    y="370"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="20"
+    fill="#2B2B2B"
+    letter-spacing="1">
+    Knowledge‑based Digital Intelligence
+  </text>
+  -->
+</svg>
